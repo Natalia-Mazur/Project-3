@@ -1,1 +1,139 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.jumbotron {
+  position: relative;
+}
+
+/* clear  */
+body {
+  max-width: 2000px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+}
+
+header .navbar {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  padding: 10px 0;
+}
+
+.menu {
+  margin-left: auto;
+  padding: 10px;
+}
+
+.menu li {
+  list-style-type: none;
+  color: #f4f4f4;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.menu_home {
+  color: #ed145b;
+}
+
+.menu_title {
+  text-align: center;
+  color: #f4f4f4;
+  font: "Lato";
+}
+
+.menu_title p {
+  font-size: 46px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 0.522;
+  text-align: center;
+  position: absolute;
+  left: 524px;
+  top: 300px;
+  z-index: 302;
+}
+
+.menu_title li {
+  font-size: 10px;
+  color: white;
+  line-height: 1.727;
+  text-align: center;
+  position: absolute;
+  left: 524px;
+  top: 425px;
+  z-index: 300;
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
