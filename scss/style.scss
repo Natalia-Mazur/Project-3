@@ -114,15 +114,20 @@ header {
     position: relative;
     top: 40%;
 
-      img {
-      padding: 30px 0;
-      }
         p {
           font-size: 46px;
           line-height: 0.5;
           text-align: center;
           text-transform: uppercase;
         }
+
+        .line {
+          width: 200px;
+          height: 2px;
+          background-color: $color-3;
+          border: none;
+          margin-top: 20px;
+        } 
           strong {
             color: $color-3;
           }
@@ -131,7 +136,7 @@ header {
               line-height: 1.8;
               text-align: center;
               list-style-type: none;
-          }
+            }
   }
 
   .menu_button {
@@ -149,3 +154,4 @@ header {
       outline-style: none;
   }
   // The end section header / main
+  

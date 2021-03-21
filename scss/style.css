@@ -114,15 +114,19 @@ header .navbar {
   top: 40%;
 }
 
-.menu_title img {
-  padding: 30px 0;
-}
-
 .menu_title p {
   font-size: 46px;
   line-height: 0.5;
   text-align: center;
   text-transform: uppercase;
+}
+
+.menu_title .line {
+  width: 200px;
+  height: 2px;
+  background-color: #ed145b;
+  border: none;
+  margin-top: 20px;
 }
 
 .menu_title strong {
