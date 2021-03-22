@@ -300,3 +300,61 @@ header {
     }
 
     // The end carousel
+
+.section__prices {
+  background-color: $color-2;
+    
+  .section__prices--top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .prices {
+      padding: 150px 0 75px 0; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      flex-direction: column;
+      color: $color-1;
+
+
+        .line {
+          width: 200px;
+          height: 2px;
+          background-color: $color-3;
+          border: none;
+          margin: 20px 0;
+        }
+
+          p {
+            max-width: 900px;
+            text-align: center;
+          }
+    }
+  }
+}
+// top prices
+
+.prices__all {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+
+  .prices__all--top-inside {
+    background-color: $color-1;
+    color: $color-2;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    
+  }
+  
+  .prices__all--top-inside:hover {
+    background-color:$color-3;
+    cursor: pointer;
+    transition-duration: 0.7s;
+  }
+}
