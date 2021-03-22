@@ -295,7 +295,50 @@ header .navbar {
 .our_services--img p {
   color: #ed145b;
   text-transform: uppercase;
-  padding-left: 80px;
+  padding: 0 0 80px 80px;
   font-weight: bold;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.item .quote-top {
+  color: #ed145b;
+  position: absolute;
+  top: 10%;
+  font-size: 60px;
+  left: 49%;
+}
+
+.item .quote-bottom {
+  color: #ed145b;
+  position: absolute;
+  top: 65%;
+  font-size: 60px;
+  left: 49%;
+}
+
+.item p {
+  color: #f4f4f4;
+  font-size: 25px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  max-width: 700px;
+}
+
+.item img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
