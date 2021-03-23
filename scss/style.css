@@ -410,11 +410,21 @@ header .navbar {
 .prices__all .prices__all--item .prices__inside--btn {
   width: 160px;
   height: 50px;
-  background-color: #f4f4f4;
   border-radius: 15px;
   text-align: center;
-  position: relative;
-  z-index: 100;
+}
+
+.prices__all .prices__all--item .btn--top {
+  background-color: #f4f4f4;
+  width: 160px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: 20px;
+}
+
+.prices__all .prices__all--item .btn--bottom {
+  background-color: #ed145b;
+  border: none;
 }
 
 .prices__all .prices__all--top-inside {
