@@ -411,5 +411,38 @@ header {
 
 // The end section prices 
 
+.additional {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 80px;
 
+  .additional__box {
+    display: flex;
+    max-width: 360px;
+    padding: 45px 15px 45px 15px;
+
+    .additional__box--icon {
+      display: flex;
+      align-items: flex-start;
+      font-size: 40px;
+      color: $color-3;
+      padding-right: 25px;
+    }
+        .additional__box--text {
+          display: flex;
+          flex-direction: column;
+
+          p {
+            font-size: 15px;
+				    padding-bottom: 15px;
+            &:first-child {
+              color: $color-3;
+              text-transform: uppercase;
+              font-weight: bold;
+            }
+          }
+    }
+  }
+}
  
