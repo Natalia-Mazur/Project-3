@@ -339,6 +339,7 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding-bottom: 100px;
   
   .prices__all--item {
     display: flex;
@@ -358,7 +359,6 @@ header {
         text-align: center;
         text-transform: uppercase;
       }
-
         .btn--top {
           background-color: $color-2;
           margin-top: -25px;
@@ -370,7 +370,6 @@ header {
               color: #FFF;
             }
     }
-
     .prices__all--top-inside {
       background-color: $color-1;
       color: $color-2;

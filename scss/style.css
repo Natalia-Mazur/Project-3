@@ -401,6 +401,7 @@ header .navbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-bottom: 100px;
 }
 
 .prices__all .prices__all--item {
