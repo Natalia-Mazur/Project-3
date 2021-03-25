@@ -417,12 +417,11 @@ header .navbar {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   width: 250px;
   height: 460px;
   margin: 0 12px 0 12px;
   background-color: #FFF;
+  padding-bottom: 30px;
 }
 
 .prices__all .prices__all--item .prices__inside--btn {
@@ -430,18 +429,19 @@ header .navbar {
   height: 50px;
   border-radius: 15px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .prices__all .prices__all--item .btn--top {
   background-color: #f4f4f4;
   margin-top: -25px;
-  text-align: center;
-  padding-top: 13px;
+  padding: 10px;
 }
 
 .prices__all .prices__all--item .btn--bottom {
   background-color: #ed145b;
   border: none;
+  color: #FFF;
 }
 
 .prices__all .prices__all--top-inside {

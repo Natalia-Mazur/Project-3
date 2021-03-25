@@ -342,34 +342,33 @@ header {
   
   .prices__all--item {
     display: flex;
-			justify-content: flex-start;
-			align-items: center;
-			flex-direction: column;
-			flex-wrap: wrap;
-			width: 250px;
-			height: 460px;
-			margin: 0 12px 0 12px;
-			background-color: #FFF;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 460px;
+    margin: 0 12px 0 12px;
+    background-color: #FFF;
+    padding-bottom: 30px;
 
       .prices__inside--btn {
         width: 160px;
         height: 50px;
         border-radius: 15px;
         text-align: center;
+        text-transform: uppercase;
       }
 
         .btn--top {
           background-color: $color-2;
           margin-top: -25px;
-          text-align: center;
-          padding-top: 13px;
+          padding: 10px;
         }
             .btn--bottom {
               background-color: $color-3;
               border: none;
-         
+              color: #FFF;
             }
-         
     }
 
     .prices__all--top-inside {
@@ -410,6 +409,7 @@ header {
   }
 }
 
+// The end section prices 
 
 
  
