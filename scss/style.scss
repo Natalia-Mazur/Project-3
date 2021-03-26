@@ -494,3 +494,108 @@ header {
 
 // The end section join us
 
+.news {
+  padding: 0;
+  background-color: $color-2;
+
+  .newsheader {
+		display: flex;
+	  align-items: center;	
+		justify-content: center;
+		flex-direction: column;
+    padding-top: 120px;
+    color: $color-1;
+
+    .line {
+      width: 200px;
+      height: 2px;
+      background-color: #ed145b;
+      border: none;
+      margin: 20px 0;
+    }
+    p {
+      padding: 10px 150px 0 150px;
+			text-align: center;
+    }
+  }
+
+  .news__img {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+    .new__img--box {
+      display: flex;
+      flex-direction: column;
+      width: 360px;
+      padding: 60px 20px 10px 10px;
+      color: $color-1;
+      
+
+      .news__img--text {
+        padding: 10px;
+
+        p {
+          &:first-child {
+            font-size: 16px;
+            padding: 15px 0 ;
+            font-weight: bold;
+
+          }
+        }
+      }
+
+      .new__img--gallery {
+        position: relative;
+				overflow: hidden;
+
+        &:hover {
+          .layer__fa {
+            margin-top: 0;
+						background-color: $color-3;
+						opacity: 0.8;
+          }
+        }
+
+        .layer {
+          background-color: $color-3;
+					width: 250%;
+    			height: 130%;
+					left: -20px;
+          top: 0;
+          margin-top: 245px;
+          transition: .6s ease-in;
+          position: absolute;
+					transform: rotate(2deg);
+
+          .fa {
+            position: absolute;
+            color: white;
+            font-size: 40px;
+            top: 30%;
+            left: 20%; // fa doesnt work 
+            
+          }
+        }
+      }
+    }
+  }
+  .show__more {
+    display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color: $color-3;
+		font-size: 15px;
+		font-weight: 900;
+    padding-top: 60px;
+		padding-bottom: 75px;
+
+    a {
+			text-decoration: none;
+			color: inherit;
+			font-size: 25px;
+		}
+  }
+}  // end .news 
