@@ -735,6 +735,7 @@ header .navbar {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
+  padding-bottom: 80px;
 }
 
 .additional2 .container {
