@@ -154,6 +154,7 @@ header .navbar {
   cursor: pointer;
   font-weight: bold;
   outline-style: none;
+  border: none;
 }
 
 .about {
