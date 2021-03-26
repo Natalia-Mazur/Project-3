@@ -551,7 +551,7 @@ header {
 				overflow: hidden;
 
         &:hover {
-          .layer__fa {
+          .layer {
             margin-top: 0;
 						background-color: $color-3;
 						opacity: 0.8;
@@ -571,11 +571,10 @@ header {
 
           .fa {
             position: absolute;
-            color: white;
+            color: $color-1;
             font-size: 40px;
             top: 30%;
             left: 20%; // fa doesnt work 
-            
           }
         }
       }
@@ -598,4 +597,60 @@ header {
 			font-size: 25px;
 		}
   }
-}  // end .news 
+}  // The end section news 
+
+.additional2 {
+  background-image: url(../additional2.png);
+  background-position: center;
+	background-size: cover;
+	position: relative;
+  background-repeat: no-repeat;
+
+  .container {
+    display: flex;
+    align-items: center;	
+    justify-content: center;
+    flex-direction: column;
+
+    .additional2__box--text {
+      padding-top: 80px;
+			color: $color-2;
+
+      .line {
+        width: 200px;
+        height: 2px;
+        background-color: #ed145b;
+        border: none;
+      }
+
+        p {
+          font-size: 13px;
+          max-width: 800px;
+          text-align: center;
+          padding-top: 10px;
+          &:first-child{
+          font-size: 40px;
+          }
+        }  
+    }
+        .additional2__box-btn {
+          padding-top: 50px;
+        
+          .additional__box-button {
+            width: 200px;
+            height: 50px;
+            color: $color-2;
+            border-radius: 24px;
+            background-color: $color-3;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-weight: bold;
+            outline-style: none;
+            border: none;
+            color: white;
+          }
+        }
+  }
+} 
+
+// The end additional 2
