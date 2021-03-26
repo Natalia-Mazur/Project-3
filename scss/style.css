@@ -793,4 +793,60 @@ header .navbar {
   border: none;
   color: white;
 }
+
+.download__now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 90px 0 50px 90px;
+  background-color: #f4f4f4;
+}
+
+.download__now .download__now--img {
+  padding-left: 30px;
+}
+
+.download__now .download__now--text {
+  padding-left: 50px;
+  padding-top: 80px;
+  color: #5a5a5a;
+  width: 500px;
+}
+
+.download__now .download__now--text h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.download__now .download__now--text .line {
+  width: 200px;
+  height: 2px;
+  background-color: #ed145b;
+  border: none;
+  margin: 0;
+}
+
+.download__now .download__now--text p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 13px;
+}
+
+.download__now .download__now--text .download__now-button {
+  width: 200px;
+  height: 50px;
+  color: #f4f4f4;
+  border-radius: 24px;
+  background-color: #ed145b;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  outline-style: none;
+  border: none;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
